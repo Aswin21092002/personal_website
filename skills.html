@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    
+<style>
+    /* services section styling */
+.services, .teams{
+    color:#fff;
+    background: #111;
+}
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.services .title::after,
+.teams .title::after{
+    background: #111;
+    content: "what i provide";
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: crimson;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+    text-align: justify;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+</style>
+    <!-- skills section start -->
+<!-- Skills Section -->
+<section class="services" id="skills">
+    <div class="max-width">
+        <h2 class="title">My Skills</h2>
+        <div class="serv-content">
+            <!-- Programming & Frameworks -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Programming & Frameworks</div>
+                    <p>
+                        Proficient in Python, PHP Laravel, Spring Boot (Java), Node.js, ReactJS, and Flutter for web and mobile development.
+                    </p>
+                </div>
+            </div>
+            <!-- Database & Processing -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-database"></i>
+                    <div class="text">Database & Processing</div>
+                    <p>
+                        Skilled in MongoDB, MySQL, IBM NoSQL, Kafka, Spark, and real-time data processing with ELK Stack and Airflow.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Monitoring & Integration -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-project-diagram"></i>
+                    <div class="text">Monitoring & Integration</div>
+                    <p>
+                        Skilled in IIB, IBM APIC, ELK Stack, Grafana, enabling seamless enterprise integration and real-time system monitoring workflows.
+                    </p>
+                </div>
+                    
+                </div>
+
+            <!-- Cloud & DevOps -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-cloud"></i>
+                    <div class="text">Cloud & DevOps</div>
+                    <p>
+                        Extensive experience with AWS, Google Cloud, IBM Cloud, Docker, Jenkins, Ansible, and hybrid cloud deployments.
+                    </p>
+                </div>
+            </div>
+            <!-- Enterprise Mobility -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div class="text">Enterprise Mobility</div>
+                    <p>
+                        Expertise in IBM MobileFirst Platform (MFP), MaaS360, and implementing secure BYOD solutions for enterprise mobility.
+                    </p>
+                </div>
+            </div>
+            
+            
+            <!-- Soft Skills -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-user-friends"></i>
+                    <div class="text">Soft Skills</div>
+                    <p>
+                        Leadership, critical thinking, emotional intelligence, flexibility, problem-solving, and effective communication.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">Certifications</h2>
+        <ul>
+            <li>GUVI | IITM Advanced Professional Programming and Master Data Science Program (Aug 2021)</li>
+            <li>IBM | Data Science Tools (Jan 2021)</li>
+            <li>Elastic Community Organizer (Jan 2019)</li>
+            <li>IBM | Node-RED: Basics to Bots (Sep 2018)</li>
+            <li>IBM | Blockchain Essentials (Dec 2017)</li>
+            <li>IBM | Architectural Thinking (Sep 2017)</li>
+            <li>IBM | Certified Application Developer - Cloud Platform V1 (Dec 2015)</li>
+            <li>IBM | Cloud Developer Bootcamp (Oct 2015)</li>
+            <li>ITIL | V3 Certified (Oct 2010)</li>
+        </ul>
+        <!-- Button with additional styling for spacing -->
+        <div class="button-container">
+            <button onclick="window.location.href='bro.html';">Back to Home</button>
+        </div>
+    </div>
+</section>
+
+<style>
+     .button-container {
+        margin-top: 30px; /* Adjust this value to push the button further down */
+        text-align: left; /* Center align the button */
+    }
+
+    .button-container button {
+        padding: 10px 20px; /* Adjust the padding to make the button look good */
+        background-color: crimson; /* Set background color */
+        color: white; /* Text color */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .button-container button:hover {
+        background-color:  darkred;/* Darker shade on hover */
+    }
+
+.about .title::after{
+    content: "what i had";
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkred;
+}
+    .services, .teams {
+        color: #fff;
+        background: #111;
+    }
+    .services .title::before,
+    .teams .title::before {
+        background: #fff;
+    }
+    .services .title::after,
+    .teams .title::after {
+        background: #111;
+        content: "what i know";
+    }
+    .services .serv-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .services .serv-content .card {
+        width: calc(33.33% - 20px); /* Ensures equal width for all cards */
+        background: #222;
+        text-align: center;
+        border-radius: 6px;
+        padding: 50px 30px;
+        margin: 10px 0; /* Adds equal spacing above and below the cards */
+        box-sizing: border-box;
+        height: auto; /* Ensures equal height based on content */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .services .serv-content .card:hover {
+        background: crimson;
+    }
+    .services .serv-content .card .box {
+        transition: all 0.3s ease;
+    }
+    .services .serv-content .card:hover .box {
+        transform: scale(1.05);
+    }
+    .services .serv-content .card i {
+        font-size: 50px;
+        color: crimson;
+        transition: color 0.3s ease;
+    }
+    .services .serv-content .card:hover i {
+        color: #fff;
+    }
+    .services .serv-content .card .text {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
+    }
+    .services .serv-content .card p {
+        text-align: justify; /* Ensures justified alignment for paragraph text */
+        font-size: 16px;
+        line-height: 1.6;
+        margin-top: 10px;
+    }
+</style>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="max-width">
+            <div class="footer-content">
+                <p>© 2024 Manickalai Rajan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
