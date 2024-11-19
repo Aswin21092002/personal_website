@@ -343,7 +343,7 @@ section .title::after{
     background: none;
 }
 .skills .skills-content .right .bars {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     background-color: red; /* Sets the background of the bars to red */
     border: 1px solid crimson; /* Optional: Adds a crimson border for better visibility */
 }
@@ -381,13 +381,18 @@ section .title::after{
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
+
+.skills-content .right .Hybrid Cloud Solutions::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .Microservices::before{
     width: 70%;
 }
-
+.skills .skills-content .right .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 .skills .skills-content .right a{
     display: inline-block;
     background: crimson;
